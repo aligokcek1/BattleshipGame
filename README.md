@@ -1,2 +1,2 @@
 # BattleshipGame
- First assignment of the first semester
+ Basic battleship game coded with python
