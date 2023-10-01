@@ -1,0 +1,20 @@
+
+prompt_1 = "Please enter the board size\n"
+prompt_2 = "Please enter how many squares you want to place\n"
+prompt_3 = "Please enter the coordinates of a square you want to place\n"
+prompt_4 = "Please enter a target square coordinate, or enter exit to exit\n"
+prompt_5 = "Congratulations, you won!"
+prompt_6 = "Thanks for playing."
+error_message_1 = "Improper board size"
+error_message_2 = "Improper amount of squares"
+error_message_3 = "Incorrect input format for square coordinates"
+error_message_4 = "Improper square coordinates"
+error_message_5 = "Sign already placed to square"
+
+
+# DO_NOT_EDIT_ANYTHING_ABOVE_THIS_LINE
+
+
+
+# DO_NOT_EDIT_ANYTHING_BELOW_THIS_LINE
+

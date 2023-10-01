@@ -1,0 +1,116 @@
+<html>
+<head>
+<link href="css/question.css" type="text/css" rel="stylesheet" />
+<title>Question (teaching.codes)</title>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h1>
+					Question #1: <br><br>
+					<code>+x- Game (100 points)</code>
+				</h1>
+				<div>
+					Please read <a href="ReadMe.html">important information</a> first.
+				</div>
+				<div id="page1">
+					<h2>Description</h2>
+					<p>
+						In this homework, your task is to write a Python program which simulates a game called the +x- game. This is a single player game which is played on a board, where the player will enter certain commands and your task is to make the necessary changes on the board according to those commands.<br>
+						In its essence, the player enters commands via external input, and you need to:
+						<ul>
+							<li>Read the command</li>
+							<li>If there is a problem with the command report the error</li>
+							<li>Change the board according to the command if not</li>
+						</ul>
+						First of all, you should determine the board size, which should be taken as an input from the user. The initial board looks like below for a board_size of <code>5</code>:<br>
+						&nbsp;&nbsp;1 2 3 4 5<br>
+						1 - - - - -<br>
+						2 - - - - -<br>
+						3 - - - - -<br>
+						4 - - - - -<br>
+						5 - - - - -<br>
+						This game consists of two phases. <b>First phase is the placement phase</b> where the player places a chosen number of + signs on the board. Let's say the player provides the input <code>6</code>, meaning that they wish to place 6 signs on the board. The player will then provide coordinates as input in row,column order to place the signs.<br>
+						Let's say the user provides the inputs: <br>
+						<code>2 5</code><br>
+						<code>4 3</code><br>
+						<code>2 3</code><br>
+						<code>2 4</code><br>
+						<code>3 4</code><br>
+						<code>4 5</code><br>
+						After placing these 6 signs according to the coordinate inputs provided by the user, the final board should look like this:<br>
+						&nbsp;&nbsp;1 2 3 4 5<br>
+						1 - - - - -<br>
+						2 - - + + +<br>
+						3 - - - + -<br>
+						4 - - + - +<br>
+						5 - - - - -<br>
+						<b>The second phase is the x phase</b> where the player tries to turn all squares with the + sign to - by targeting the squares and changing their signs. The x name is because the signs should change in an x pattern centered around the targeted square. The player will again provide coordinates as input in row,column order to change signs.<br>
+						So if the user gives the target input <code>4 2</code>, the previous board should look like this afterwards:<br>
+						&nbsp;&nbsp;1 2 3 4 5<br>
+						1 - - - - -<br>
+						2 - - + + +<br>
+						3 + - + + -<br>
+						4 - + + - +<br>
+						5 + - + - -<br>
+						Note how the - signs turn into + signs. Similarly if the next target input is <code>3 4</code>, the board should look like this afterwards:<br>
+						&nbsp;&nbsp;1 2 3 4 5<br>
+						1 - - - - -<br>
+						2 - - - + -<br>
+						3 + - + - -<br>
+						4 - + - - -<br>
+						5 + - + - -<br>
+						Note that now the + signs turned into - signs. Finally, if the x shape is not fully on the board, we just change the signs of the parts that lie on the board. So, for the input <code>3 1</code>, the board should look like this afterwards:<br>
+						&nbsp;&nbsp;1 2 3 4 5<br>
+						1 - - - - -<br>
+						2 - + - + -<br>
+						3 - - + - -<br>
+						4 - - - - -<br>
+						5 + - + - -<br>
+						The player wins when there remain no + signs on the board. <br>
+						<br>
+						We provided the necessary messages to you, to be used for printing. Below, we explain where each should be used: <br>
+                        <ul>
+                            <li><code>prompt_1</code> is the first prompt, it is to be used when taking the board size input from the user. Assume that the user will always input an integer.</li>
+                            <li><code>error_message_1</code> is the first error message, it is to be used when the board size the user enters is not a valid number. A valid board size is between 5 and 9, both inclusive.</li>
+                            <li><code>prompt_2</code> is to be used when taking the number of squares to place input from the user. This input will be used to determine how many + signs will be placed on the board before the game starts. Assume that the user will always input an integer.</li>
+                            <li><code>error_message_2</code> is to be used when the number of squares to place is not a valid number. A valid number of squares is between 1 and the number of squares on the board, both inclusive.</li>
+                            <li><code>prompt_3</code> is to be used when taking the coordinates of a square the user wants to place a + sign in the first phase. Make no assumptions about what the user will enter here.</li>
+                            <li><code>prompt_4</code> is to be used when taking the coordinates of a square the user wants to target in the second phase. Make no assumptions about what the user will enter here.</li>
+                            <li><code>error_message_3</code> is to be used when either the coordinates of a square to place the + sign in the first phase or the coordinates of a square to target in the second phase is not in the correct format. The correct format has two integers separated by whitespaces. Since whitespaces are allowed in this input, your code must handle anything the user can do with whitespaces so that your code does not fail and exit.</li>
+                            <li><code>error_message_4</code> is to be used when either the coordinates of a square to place the + sign in the first phase or the coordinates of a square to target in the second phase is not a valid number. A valid number is between 1 and the board size, both inclusive. Since whitespaces are allowed in this input, your code must handle anything the user can do with whitespaces so that your code does not fail and exit.</li>
+                            <li><code>error_message_5</code> is to be used only when the a + sign is already placed on coordinates of a square chosen by the user in the first phase.</li>
+                            <li><code>prompt_5</code> is to be used only when there are no + signs left on the board, therefore the player has won.</li>
+                            <li><code>prompt_6</code> is to be used only when either the user has won or when the player exits the game.</li>
+                        </ul>
+                        Certain implementation details:<br>
+                        <ul>
+                            <li>You are allowed to use everything you have learned in the lectures up until the assignment of the homework.</li>
+                            <li>Prompts 1 to 4 are to be used when taking inputs. Prompts 5 and 6 are for display purposes only, so they should just be printed when appropriate.</li>
+							<li>After <b>each</b> valid <code>coordinate input (inputs with row,column values) is handled</code>, the board should be printed.</li>
+                            <li>If the player gives a bad input, or makes an invalid move, tell them what they did wrong with the necessary <b>error messages</b> and ask for the input again with <b>the prompt</b> until they get it right.</li>
+							<li>If for some reason the user inputs more than two elements for coordinates, do not immediately assume the input invalid but instead take the first two elements and use them if they are valid.</li>
+                            <li>The squares are denoted with either a <code>-</code> or a <code>+</code>.</li>
+                            <li>While taking coordinate inputs, whitespace is allowed in the input. Make sure to write your code such that an uninformed or a malicious user won't be able to get an error from your program.</li>
+                            <li>To exit, the player must write <code>exit</code> in a <b>case insensitive</b> manner.</li>
+                        </ul>
+					</p>
+					<p>
+						<b>We provided example input/output files for this homework on Moodle</b>. Check them for further clarification. Keep in mind that we will be grading your code not just based on these examples, but other cases as well, so try to write code which can handle all possible cases. <br>
+						If you want to know how a specific scenario would work, send us an email with the input file and we will add the input & output files on Moodle for everyone to see. <br>
+						<b>There will also be a video on Moodle</b> explaining how you can run the code so that your inputs are read from a file, the outputs you get are written to a file such that they don't include your inputs, and a way to check for the differences between your outputs and the example cases. Please take a look at it.
+						If you find a bug, please contact us.
+					</p>
+					<p>
+						<b>Warning:</b> You are not allowed to use imports and topics that haven't been covered this semester.
+					</p>
+					<p>
+						<b>Important:</b> Use the messages/prompts we have given you to print the messages/prompts in this homework, do not write the strings on your own. However, you need to print the board by yourselves.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

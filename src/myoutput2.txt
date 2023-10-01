@@ -1,0 +1,100 @@
+Please enter the board size
+Please enter how many squares you want to place
+Please enter the coordinates of a square you want to place
+  1 2 3 4 5 6
+1 + - - - - -
+2 - - - - - -
+3 - - - - - -
+4 - - - - - -
+5 - - - - - -
+6 - - - - - -
+Please enter the coordinates of a square you want to place
+  1 2 3 4 5 6
+1 + - - - - -
+2 - - - - - -
+3 + - - - - -
+4 - - - - - -
+5 - - - - - -
+6 - - - - - -
+Please enter the coordinates of a square you want to place
+  1 2 3 4 5 6
+1 + - - - - -
+2 - + - - - -
+3 + - - - - -
+4 - - - - - -
+5 - - - - - -
+6 - - - - - -
+Please enter the coordinates of a square you want to place
+  1 2 3 4 5 6
+1 + - + - - -
+2 - + - - - -
+3 + - - - - -
+4 - - - - - -
+5 - - - - - -
+6 - - - - - -
+Please enter the coordinates of a square you want to place
+  1 2 3 4 5 6
+1 + - + - - -
+2 - + - - - -
+3 + - + - - -
+4 - - - - - -
+5 - - - - - -
+6 - - - - - -
+Please enter the coordinates of a square you want to place
+  1 2 3 4 5 6
+1 + - + + - -
+2 - + - - - -
+3 + - + - - -
+4 - - - - - -
+5 - - - - - -
+6 - - - - - -
+Please enter the coordinates of a square you want to place
+  1 2 3 4 5 6
+1 + - + + - -
+2 - + - - - -
+3 + - + + - -
+4 - - - - - -
+5 - - - - - -
+6 - - - - - -
+Please enter the coordinates of a square you want to place
+  1 2 3 4 5 6
+1 + - + + - -
+2 - + - - + -
+3 + - + + - -
+4 - - - - - -
+5 - - - - - -
+6 - - - - - -
+Please enter the coordinates of a square you want to place
+  1 2 3 4 5 6
+1 + - + + - +
+2 - + - - + -
+3 + - + + - -
+4 - - - - - -
+5 - - - - - -
+6 - - - - - -
+Please enter the coordinates of a square you want to place
+  1 2 3 4 5 6
+1 + - + + - +
+2 - + - - + -
+3 + - + + - +
+4 - - - - - -
+5 - - - - - -
+6 - - - - - -
+Please enter a target square coordinate, or enter exit to exit
+  1 2 3 4 5 6
+1 - - - + - +
+2 - - - - + -
+3 - - - + - +
+4 - - - - - -
+5 - - - - - -
+6 - - - - - -
+Please enter a target square coordinate, or enter exit to exit
+  1 2 3 4 5 6
+1 - - - - - -
+2 - - - - - -
+3 - - - - - -
+4 - - - - - -
+5 - - - - - -
+6 - - - - - -
+Congratulations, you won!
+Thanks for playing.

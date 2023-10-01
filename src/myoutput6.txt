@@ -1,0 +1,130 @@
+Please enter the board size
+Please enter how many squares you want to place
+Please enter the coordinates of a square you want to place
+  1 2 3 4 5 6 7
+1 - - - - - - -
+2 - + - - - - -
+3 - - - - - - -
+4 - - - - - - -
+5 - - - - - - -
+6 - - - - - - -
+7 - - - - - - -
+Please enter the coordinates of a square you want to place
+  1 2 3 4 5 6 7
+1 - - - - - - -
+2 - + - - - - -
+3 - - - - - - -
+4 - - - - - - -
+5 - - - - - - -
+6 - - - - - + -
+7 - - - - - - -
+Please enter the coordinates of a square you want to place
+  1 2 3 4 5 6 7
+1 - - - - - - -
+2 - + - - - - -
+3 - - - + - - -
+4 - - - - - - -
+5 - - - - - - -
+6 - - - - - + -
+7 - - - - - - -
+Please enter the coordinates of a square you want to place
+  1 2 3 4 5 6 7
+1 - - - - - - -
+2 - + - - - - -
+3 - - - + - - -
+4 - + - - - - -
+5 - - - - - - -
+6 - - - - - + -
+7 - - - - - - -
+Please enter the coordinates of a square you want to place
+  1 2 3 4 5 6 7
+1 - - - - - - -
+2 - + - - - - -
+3 - - - + - - -
+4 - + - - - - -
+5 - - - - - + -
+6 - - - - - + -
+7 - - - - - - -
+Please enter the coordinates of a square you want to place
+  1 2 3 4 5 6 7
+1 - - - - - - -
+2 - + - - - - -
+3 - - - + - - -
+4 - + - - - - -
+5 - - - - - + -
+6 - - - - + + -
+7 - - - - - - -
+Please enter the coordinates of a square you want to place
+  1 2 3 4 5 6 7
+1 - - - - - - -
+2 - + - - - - -
+3 - - - + - - -
+4 - + - - - - -
+5 - - - - - + -
+6 - + - - + + -
+7 - - - - - - -
+Please enter a target square coordinate, or enter exit to exit
+  1 2 3 4 5 6 7
+1 + - - - - - -
+2 - - - - - - -
+3 - - - + - - -
+4 - + - - - - -
+5 - - - - - + -
+6 - + - - + + -
+7 - - - - - - -
+Please enter a target square coordinate, or enter exit to exit
+  1 2 3 4 5 6 7
+1 + + - - - - -
+2 + - - - - - -
+3 - + - + - - -
+4 - + - - - - -
+5 - - - - - + -
+6 - + - - + + -
+7 - - - - - - -
+Please enter a target square coordinate, or enter exit to exit
+  1 2 3 4 5 6 7
+1 + + - - - - -
+2 + + - - - - -
+3 + + - + - - -
+4 - - - - - - -
+5 - - - - - + -
+6 - + - - + + -
+7 - - - - - - -
+Please enter a target square coordinate, or enter exit to exit
+  1 2 3 4 5 6 7
+1 + + - - - - -
+2 + + - - - - -
+3 + - - + - - -
+4 + - - - - - -
+5 - + - - - + -
+6 - + - - + + -
+7 - - - - - - -
+Please enter a target square coordinate, or enter exit to exit
+  1 2 3 4 5 6 7
+1 + + - - - - -
+2 + + - - - - -
+3 + - - + - - -
+4 + + - - - - -
+5 + + - - - + -
+6 - - - - + + -
+7 - - - - - - -
+Please enter a target square coordinate, or enter exit to exit
+  1 2 3 4 5 6 7
+1 + + - - - - -
+2 + + - - - - -
+3 + - - + - - -
+4 + + - - - - -
+5 + - - - - + -
+6 + - - - + + -
+7 - + - - - - -
+Please enter a target square coordinate, or enter exit to exit
+Incorrect input format for square coordinates
+Please enter a target square coordinate, or enter exit to exit
+Incorrect input format for square coordinates
+Please enter a target square coordinate, or enter exit to exit
+Incorrect input format for square coordinates
+Please enter a target square coordinate, or enter exit to exit
+Incorrect input format for square coordinates
+Please enter a target square coordinate, or enter exit to exit
+Incorrect input format for square coordinates
+Please enter a target square coordinate, or enter exit to exit
